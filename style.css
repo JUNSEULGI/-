@@ -2,19 +2,37 @@
   font-family:"NotoSans";
   src: url("NotoSansKR-Medium.otf");
 }
+
 #메뉴 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
+  background-color: yellowgreen;
+  padding: 5px;
+}
+#보드 {
+  height: 250px;
+  width: 250px;
+  background-color: turquoise;
 }
 img {
   display: inline;
-  border-right: 1px solid gray;
 }
 #head{
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
+  align-items: center;
   padding-left: 200px;
   padding-right: 200px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: gray;
+}
+footer {
+  text-align: center;
 }
