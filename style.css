@@ -9,11 +9,20 @@
   text-align: center;
   background-color: yellowgreen;
   padding: 5px;
+  margin: 5px;
+  border: 2px solid lightgray;
 }
-#보드 {
+#보드1 {
   height: 250px;
-  width: 250px;
   background-color: turquoise;
+  margin : 5px;
+  border: solid 2px lightgray;
+}
+#보드2 {
+  height: 250px;
+  background-color: thistle;
+  margin : 5px;
+  border: 2px solid lightgray;
 }
 img {
   display: inline;
